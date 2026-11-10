@@ -1,0 +1,6 @@
+{
+  "name": "AudioZen",
+  "description": "Control de perfiles de audio, widgets de 1 toque, automatizaciones y respaldo seguro",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AudioZen</string>
+    <string name="profile_normal">Normal</string>
+    <string name="profile_vibrate">Vibración</string>
+    <string name="profile_silent">Silencio</string>
+    <string name="profile_dnd">No Molestar</string>
+    <string name="widget_quick_bar_title">AudioZen Barra</string>
+    <string name="widget_cycle_title">AudioZen Ciclo</string>
+    <string name="dnd_permission_required">Permiso de No Molestar requerido para silenciar completamente las notificaciones y alarmas.</string>
+</resources>

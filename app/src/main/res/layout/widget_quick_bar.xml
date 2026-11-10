@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <!-- Normal Sound Profile Button -->
+    <LinearLayout
+        android:id="@+id/btn_normal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:background="@drawable/widget_btn_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/icon_normal"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/profile_normal"
+            android:src="@drawable/ic_volume_up" />
+
+        <TextView
+            android:id="@+id/label_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/profile_normal"
+            android:textColor="#E2E8F0"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Vibrate Profile Button -->
+    <LinearLayout
+        android:id="@+id/btn_vibrate"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:background="@drawable/widget_btn_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/icon_vibrate"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/profile_vibrate"
+            android:src="@drawable/ic_vibration" />
+
+        <TextView
+            android:id="@+id/label_vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/profile_vibrate"
+            android:textColor="#E2E8F0"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Silent Profile Button -->
+    <LinearLayout
+        android:id="@+id/btn_silent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:background="@drawable/widget_btn_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/icon_silent"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/profile_silent"
+            android:src="@drawable/ic_volume_off" />
+
+        <TextView
+            android:id="@+id/label_silent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/profile_silent"
+            android:textColor="#E2E8F0"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- DND Profile Button -->
+    <LinearLayout
+        android:id="@+id/btn_dnd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:background="@drawable/widget_btn_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/icon_dnd"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/profile_dnd"
+            android:src="@drawable/ic_do_not_disturb" />
+
+        <TextView
+            android:id="@+id/label_dnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/profile_dnd"
+            android:textColor="#E2E8F0"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
